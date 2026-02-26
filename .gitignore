@@ -1,0 +1,80 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+
+# Keep example file
+!.env.example
+
+# ===============================
+# Exported Data Files (IMPORTANT)
+# ===============================
+*.csv
+*.csv.gz
+*.json
+*.xml
+*.parquet
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Docker
+# ===============================
+docker-data/
+pgdata/
+*.db
+
+# ===============================
+# IDE / Editor
+# ===============================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# ===============================
+# OS Files
+# ===============================
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Testing / Coverage
+# ===============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===============================
+# Temporary Files
+# ===============================
+*.tmp
+*.swp
